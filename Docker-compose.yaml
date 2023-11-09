@@ -1,0 +1,9 @@
+version: "3.7"
+
+services:
+  web:
+    build: 
+        context: .
+        dockerfile: TY.Hiring.Fleet.Management.Api/Dockerfile
+    ports:
+      - "8080:80"
